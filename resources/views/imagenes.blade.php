@@ -11,7 +11,7 @@
             <th scope="col">ROJO</th>
             <th scope="col">ROSA</th>
             <th scope="col">VARIADO</th>
-            <th scope="col">OPCIONES</th>
+            <th scope="col">OPCIONES <input class="onoff" type="checkbox" data-size="sm" unchecked data-toggle="toggle" data-onstyle="light" data-offstyle="dark" data-style="border" onchange="desbloquear();"></th>
 
         </tr>
         </thead>
@@ -42,7 +42,7 @@
                 @endif</td>
             <td><a href="/imagenes/{{$imagen->id}}"title="VER"><i class="far fa-eye"></i></a></a><br>
                 <a href="/imagenes/{{$imagen->id}}/edit"title="EDITAR"><i class="far fa-edit"></i></a><br>
-                <a href="/imagenes/{{$imagen->id}}/delete"title="BORRAR"><i class="far fa-trash-alt"></i></a>
+                <a class="btn disabled borrar" href="/imagenes/{{$imagen->id}}/delete"title="BORRAR"><i class="far fa-trash-alt"></i></a>
 
             </td>
         </tr>
@@ -54,5 +54,6 @@
             {{$imagenes->links()}}
         </div>
     </div>
-
+    <script src="{{URL::asset('js/candado.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
 @endsection
