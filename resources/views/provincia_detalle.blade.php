@@ -9,7 +9,7 @@
             <th scope="col">ID</th>
             <th scope="col">NOMBRE</th>
 
-            <th scope="col">EDITAR</th>
+            <th scope="col">EDITAR <input class="onoff" type="checkbox" data-size="sm" unchecked data-toggle="toggle" data-onstyle="light" data-offstyle="dark" data-style="border" onchange="desbloquear();"></th>
 
         </tr>
         </thead>
@@ -19,7 +19,7 @@
             <td>{{$provincias->id}}</td>
             <td>{{$provincias->nombre}}</td>
             <td> <a href="/provincias/{{$provincias->id}}/edit"><i class="far fa-edit"></i></a><br>
-                <a href="/provincias/{{$provincias->id}}/delete"><i class="far fa-trash-alt"></i></a></td>
+                <a  class="btn disabled borrar"  href="/provincias/{{$provincias->id}}/delete"><i class="far fa-trash-alt"></i></a></td>
 
         </tr>
 
@@ -27,4 +27,6 @@
     </table>
 
     </div>
+    <script src="{{URL::asset('js/candado.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
 @endsection

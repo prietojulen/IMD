@@ -7,7 +7,7 @@
         <tr>
             <th scope="col">ID</th>
             <th scope="col">NOMBRE</th>
-            <th scope="col">OPCIONES</th>
+            <th scope="col">OPCIONES <input class="onoff" type="checkbox" data-size="sm" unchecked data-toggle="toggle" data-onstyle="light" data-offstyle="dark" data-style="border" onchange="desbloquear();"></th>
         </tr>
         </thead>
         <tbody>
@@ -17,7 +17,7 @@
             <td>{{$provincia->nombre}}</td>
             <td><a href="/provincias/{{$provincia->id}}" title="VER"><i class="far fa-eye"></i></a></a><br>
                 <a href="/provincias/{{$provincia->id}}/edit" title="EDITAR"><i class="far fa-edit"></i></a><br>
-                <a href="/provincias/{{$provincia->id}}/delete" title="BORRAR"><i class="far fa-trash-alt"></i></a>
+                <a class="btn disabled borrar" href="/provincias/{{$provincia->id}}/delete" title="BORRAR"><i class="far fa-trash-alt"></i></a>
 
             </td>
         </tr>
@@ -31,5 +31,6 @@
         </div>
     </div>
     </div>
-
+    <script src="{{URL::asset('js/candado.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
 @endsection

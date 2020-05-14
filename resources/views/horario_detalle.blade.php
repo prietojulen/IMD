@@ -9,7 +9,7 @@
             <th scope="col">DIA SEMANA</th>
             <th scope="col">HORARIO SALIDA</th>
             <th scope="col">MINUTO SALIDA</th>
-            <th scope="col">EDITAR</th>
+            <th scope="col">EDITAR <input class="onoff" type="checkbox" data-size="sm" unchecked data-toggle="toggle" data-onstyle="light" data-offstyle="dark" data-style="border" onchange="desbloquear();"></th>
 
         </tr>
         </thead>
@@ -43,12 +43,13 @@
             <td>{{$horarios->hora_salida}}</td>
             <td>{{$horarios->minuto_salida}}</td>
             <td><a href="/horarios/{{$horarios->id}}/edit" title="EDITAR"><i class="far fa-edit"></i></a><br>
-                <a href="/horarios/{{$horarios->id}}/delete" title="BORRAR"><i class="far fa-trash-alt"></i></a></td>
+                <a class="btn disabled borrar" href="/horarios/{{$horarios->id}}/delete" title="BORRAR"><i class="far fa-trash-alt"></i></a></td>
 
         </tr>
 
         </tbody>
     </table>
-
+    <script src="{{URL::asset('js/candado.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
 
 @endsection
