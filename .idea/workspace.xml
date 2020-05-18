@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d67c0920-fa3e-44d7-82b5-aca5b2fc3fdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/candado.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PedidoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PedidoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/asignacion_detalle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/asignacion_detalle.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/asignaciones.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/asignaciones.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categoria_detalle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categoria_detalle.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categorias.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categorias.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/festivo_detalle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/festivo_detalle.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/festivos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/festivos.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/horario_detalle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/horario_detalle.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/horarios.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/horarios.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/imagen_detalle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/imagen_detalle.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/imagenes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/imagenes.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/llamame.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/llamame.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/llamame_detalle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/llamame_detalle.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pedidos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pedidos.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/poblacion_detalle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/poblacion_detalle.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/poblaciones.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/poblaciones.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/producto_detalle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/producto_detalle.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/provincia_detalle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/provincia_detalle.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/provincias.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/provincias.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tanatorio_detalle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tanatorio_detalle.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tanatorios.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tanatorios.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="d67c0920-fa3e-44d7-82b5-aca5b2fc3fdc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,6 +219,7 @@
       <workItem from="1589193485457" duration="3470000" />
       <workItem from="1589279183087" duration="1682000" />
       <workItem from="1589360990960" duration="2855000" />
+      <workItem from="1589471760515" duration="685000" />
     </task>
     <servers />
   </component>
